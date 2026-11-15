@@ -1,0 +1,18 @@
+{
+  "nav.home": "হোম",
+  "nav.menu": "মেনু",
+  "nav.planning": "পরিকল্পনা",
+  "nav.splitly": "Splitly",
+  "nav.family": "পরিবার",
+  "nav.insights": "ইনসাইটস",
+  "nav.ai": "এআই",
+  "nav.more": "আরও",
+  "nav.importExport": "আমদানি / রপ্তানি",
+  "header.notifications": "বিজ্ঞপ্তি",
+  "header.markAllRead": "সব পঠিত হিসেবে চিহ্নিত করুন",
+  "header.noNotifications": "কোনো বিজ্ঞপ্তি নেই",
+  "header.clearAllNotifications": "সব বিজ্ঞপ্তি মুছুন",
+  "header.profile": "প্রোফাইল",
+  "header.settings": "সেটিংস",
+  "header.logOut": "লগ আউট"
+}

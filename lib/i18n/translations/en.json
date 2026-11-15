@@ -1,0 +1,18 @@
+{
+  "nav.home": "Home",
+  "nav.menu": "Menu",
+  "nav.planning": "Planning",
+  "nav.splitly": "Splitly",
+  "nav.family": "Family",
+  "nav.insights": "Insights",
+  "nav.ai": "AI",
+  "nav.more": "More",
+  "nav.importExport": "Import / Export",
+  "header.notifications": "Notifications",
+  "header.markAllRead": "Mark all read",
+  "header.noNotifications": "No notifications",
+  "header.clearAllNotifications": "Clear all notifications",
+  "header.profile": "Profile",
+  "header.settings": "Settings",
+  "header.logOut": "Log out"
+}

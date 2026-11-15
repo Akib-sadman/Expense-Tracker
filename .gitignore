@@ -1,0 +1,45 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files - PR-Phase 13 fix: the old broad `.env*` pattern also matched
+# .env.local.example (the intentionally-committed template), which meant it
+# was silently never tracked - `git ls-files` confirmed it wasn't in the
+# repo despite existing on disk, unlike root's own precise pattern which
+# doesn't have this problem. Precise patterns only, mirroring root
+# .gitignore - an *.example file must always stay committable.
+.env
+.env.local
+.env.*.local
+
+# vercel
+.vercel
+
+# python (OCR microservice)
+python-ocr-service/venv/
+python-ocr-service/__pycache__/
+*.pyc
+.venv/
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# Phase 17: Playwright E2E output - local run artifacts, never checked in.
+/playwright-report/
+/test-results/
+/blob-report/
